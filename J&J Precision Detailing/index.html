@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>J&J Percision Detailing</title>
+    <script defer src="script.js"></script>
+    <link rel="icon" href="Images/Tab Logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="setTimeout(function(){loaded()}, 2000)">
+    <section id="loader">
+        <div class="loader"></div>
+    </section>
+    <section id="whole-Page">
+        <div id="top-Bar">
+            <div id="large-Screen-Container">
+                <div id="logo-Container">
+                    <img id="logo-Img" src="Images/Logo.png">
+                    <div id="logo-Text">J&J</div>
+                </div>
+                <div id="main-Page-Selector">
+                    <div id="options">
+                        <div class="option" onclick="scrollToElement('#main-Section');">Home</div>
+                        <div class="option" onclick="scrollToElement('#second-Section');">Pricing</div>
+                        <div class="option" onclick="scrollToElement('#third-Section');">Our Work</div>
+                        <div class="option" onclick="scrollToElement('#forth-Section');">Contact Us</div>
+                    </div>
+                </div>
+                <button id="book-Now-Button-2" disabled onclick="window.open('https://jj-precision-detailing.square.site/')">Book Now</button>
+            </div>
+        </div>
+
+
+        <section id="main-Section">
+            <div id="main-Section-Content-Container">
+                <img id="car-Img" src="Images/bgremovedcar.png">
+                <img id="car-Img-2" src="Images/bgremovedcar2.png">
+                <div id="main-Section-Fade-Right"></div>
+                <div id="main-Section-Fade-Right-2"></div>
+                <div id="main-Section-Fade-Left"></div>
+                <div id="main-Section-Fade-Left-2"></div>
+                <div id="main-Section-Header">
+                    <span>Make Your Car</span> 
+                    <span id="word-Container">
+                        <span id="current-Word"></span>
+                        <span id="next-Word"></span>
+                    </span>
+                    <span>Like New.</span>
+                </div>
+                <div id="main-Section-Subheader">Premium car detailing services that keep your vehicle shining, inside and out. Professional care, exceptional results.</div> 
+                <button id="book-Now" onclick="window.open('https://jj-precision-detailing.square.site/')">
+                    <div id="book-Now-Text-Container">
+                        <span id="book-Now-Text">Book Now</span>
+                        <svg id="book-Now-Icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                            <path d="M200-120v-640q0-33 23.5-56.5T280-840h240v80H280v518l200-86 200 86v-278h80v400L480-240 200-120Zm80-640h240-240Zm400 160v-80h-80v-80h80v-80h80v80h80v80h-80v80h-80Z"/>
+                        </svg>
+                    </div>
+                </button>
+            </div>
+            <div id="inbetween-Section"></div>
+        </section>
+
+        
+        <section id="second-Section">
+            <div id="second-Section-Fade"></div>
+            <div id="second-Section-Fade-2"></div>
+            <div id="second-Section-Content-Container">
+                <div id="view-Element"></div>
+                <div id="second-Section-Text-Header">Pricing for Packages</div>
+                <div id="second-Section-Subheader">At J&J Percision Detailing we have a wide variety of different packages. Take a look at a couple of our packages here.</div>
+                <div id="second-Section-Pricing-Containers-Container">
+
+                    <div class="second-Section-Pricing-Container">
+                        <div class="package-Placement-Title">Basic Shine</div>
+                        <div class="pricing-Package-Title" >Sparkle and Shine Package</div>
+                        <div class="pricing-Package-Price-Time">
+                            <span class="amount">CA$200.00</span>
+                            <span class="time">/ 2 hr</span>
+                        </div>
+                        <button class="get-Package" onclick="window.open('https://book.squareup.com/appointments/tuxfl1l72chi2a/location/LWPD8SXG1DBZG/services/KMZ24YR7TVZ4XF7JU62MPQCH')">Book Now</button>
+                        <div class="line">
+                            <span class="includes-Text">Includes</span>
+                        </div>
+                        <div class="features-Container">
+                            <div class="feature">
+                                <svg class="check-Mark-Icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z"/>
+                                </svg>
+                                <span class="feature-Text">Wheels Cleaned + Tires Shined</span>
+                            </div>
+                            <div class="feature">
+                                <svg class="check-Mark-Icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z"/>
+                                </svg>
+                                <span class="feature-Text">Contact Wash</span>
+                            </div>
+                            <div class="feature">
+                                <svg class="check-Mark-Icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z"/>
+                                </svg>
+                                <span class="feature-Text">Wax Protectant Sealant</span>
+                            </div>
+                            <div class="feature">
+                                <svg class="check-Mark-Icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z"/>
+                                </svg>
+                                <span class="feature-Text">Exterior/Interior Windows Cleaned</span>
+                            </div>
+                            <div class="feature">
+                                <svg class="check-Mark-Icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z"/>
+                                </svg>
+                                <span class="feature-Text">Interior Shampoo + Vacuum </span>
+                            </div>
+                            <div class="feature">
+                                <svg class="check-Mark-Icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z"/>
+                                </svg>
+                                <span class="feature-Text">Mats Washed</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="second-Section-Pricing-Container">
+                        <div class="package-Placement-Title">Premium Polish</div>
+                        <div class="pricing-Package-Title">Ultimate Protection Package</div>
+                        <div class="pricing-Package-Price-Time">
+                            <span class="amount">CA$300.00</span>
+                            <span class="time">/3 hr</span>
+                        </div>
+                        <button class="get-Package" onclick="window.open('https://book.squareup.com/appointments/tuxfl1l72chi2a/location/LWPD8SXG1DBZG/services/KCTVHR6MCQGNPV4OOT2FKFLN')">Book Now</button>
+                        <div class="line">
+                            <span class="includes-Text">Includes</span>
+                        </div>
+                        <div class="features-Container">
+                            <div class="feature">
+                                <svg class="check-Mark-Icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z"/>
+                                </svg>
+                                <span class="feature-Text">Wheels Cleaned + Tires Shined</span>
+                            </div>
+                            <div class="feature">
+                                <svg class="check-Mark-Icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z"/>
+                                </svg>
+                                <span class="feature-Text">Contact Wash</span>
+                            </div>
+                            <div class="feature">
+                                <svg class="check-Mark-Icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z"/>
+                                </svg>
+                                <span class="feature-Text">Wax Protectant Sealant</span>
+                            </div>
+                            <div class="feature">
+                                <svg class="check-Mark-Icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z"/>
+                                </svg>
+                                <span class="feature-Text">Exterior/Interior Windows Cleaned</span>
+                            </div>
+                            <div class="feature">
+                                <svg class="check-Mark-Icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z"/>
+                                </svg>
+                                <span class="feature-Text">Clay Bar</span>
+                            </div>
+                            <div class="feature">
+                                <svg class="check-Mark-Icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z"/>
+                                </svg>
+                                <span class="feature-Text">Wax Protectant Sealant</span>
+                            </div>
+                            <div class="feature">
+                                <svg class="check-Mark-Icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z"/>
+                                </svg>
+                                <span class="feature-Text">Door jams cleaned</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="second-Section-Pricing-Container">
+                        <div class="package-Placement-Title">Ultimate Gloss</div>
+                        <div class="pricing-Package-Title">Showroom Ready Package</div>
+                        <div class="pricing-Package-Price-Time">
+                            <span class="amount">CA$350.00</span>
+                            <span class="time">/ 4 hr 30 min</span>
+                        </div>
+                        <button class="get-Package" onclick="window.open('https://book.squareup.com/appointments/tuxfl1l72chi2a/location/LWPD8SXG1DBZG/services/DOORSX5YFMLLN5BXDIFB5X2G')">Book Now</button>
+                        <div class="line">
+                            <span class="includes-Text">Includes</span>
+                        </div>
+                        <div class="features-Container">
+                            <div class="feature">
+                                <svg class="check-Mark-Icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z"/>
+                                </svg>
+                                <span class="feature-Text">Wheels Cleaned + Tires Shined</span>
+                            </div>
+                            <div class="feature">
+                                <svg class="check-Mark-Icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z"/>
+                                </svg>
+                                <span class="feature-Text">Contact Wash</span>
+                            </div>
+                            <div class="feature">
+                                <svg class="check-Mark-Icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z"/>
+                                </svg>
+                                <span class="feature-Text">Exterior/Interior Windows Cleaned</span>
+                            </div>
+                            <div class="feature">
+                                <svg class="check-Mark-Icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z"/>
+                                </svg>
+                                <span class="feature-Text">Clay Bar</span>
+                            </div>
+                            <div class="feature">
+                                <svg class="check-Mark-Icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z"/>
+                                </svg>
+                                <span class="feature-Text">Interior Shampoo + Vacuum </span>
+                            </div>
+                            <div class="feature">
+                                <svg class="check-Mark-Icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z"/>
+                                </svg>
+                                <span class="feature-Text">Steam Cleaning</span>
+                            </div>
+                            <div class="feature">
+                                <svg class="check-Mark-Icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z"/>
+                                </svg>
+                                <span class="feature-Text">Trims Dressed</span>
+                            </div>
+                            <div class="feature">
+                                <svg class="check-Mark-Icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z"/>
+                                </svg>
+                                <span class="feature-Text">Mats Washed</span>
+                            </div>
+                            <div class="feature">
+                                <svg class="check-Mark-Icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z"/>
+                                </svg>
+                                <span class="feature-Text">Salt Stain Removal</span>
+                            </div>
+                            <div class="feature">
+                                <svg class="check-Mark-Icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z"/>
+                                </svg>
+                                <span class="feature-Text">Carpet & Seat Extraction</span>
+                            </div>
+                            <div class="feature">
+                                <svg class="check-Mark-Icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z"/>
+                                </svg>
+                                <span class="feature-Text">One Stage Paint Correction</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button id="find-Your-Package" onclick="window.open('https://jj-precision-detailing.square.site/')">Find Your Package</button>
+            </div>
+        </section>
+
+        <section id="third-Section">
+            <div id="third-Section-Content-Container">
+                <div id="third-Section-Main-Text-Container">
+                    <div id="third-Section-Text-Header">Our Work</div>
+                    <div id="third-Section-Subheader">Here are some examples of our past work.</div>
+                </div>
+                <div id="third-Section-Images-Videos">
+                    <div id="image-Video-Container">
+                        <div class="third-Section-Image-Container">
+                            <div class="third-Section-Example-Content-Container" onclick="window.open('https://www.instagram.com/p/C_9gvf3Jbfv/?img_index=1')">
+                                <video class="thrid-Section-Example-Video" autoplay playsinline loop src="Images/paint correction and interior detail/Video 2024-09-17, 5 06 10 PM.mp4" muted type="video/mp4"></video>
+                                <div class="third-Section-Example-Content-Fade">
+                                    <div class="project-Number"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="third-Section-Image-Container">
+                            <div class="third-Section-Example-Content-Container" onclick="window.open('https://www.instagram.com/p/C_epKdqsrCl/')">
+                                <video class="thrid-Section-Example-Video" autoplay playsinline loop src="Images/Two Step Paint Correction And Ceramic Coating/Video 2024-09-17, 5 13 05 PM.mp4" muted></video>
+                                <div class="third-Section-Example-Content-Fade">
+                                    <div class="project-Number"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="third-Section-Image-Container">
+                            <div class="third-Section-Example-Content-Container"  onclick="window.open('https://www.instagram.com/p/C_9hLA2JZZh/?img_index=1')">
+                                <video class="thrid-Section-Example-Video" autoplay playsinline loop src="Images/video2454864.mp4" muted></video>
+                                <div class="third-Section-Example-Content-Fade">
+                                    <div class="project-Number"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="third-Section-Image-Container">
+                            <div class="third-Section-Example-Content-Container" onclick="window.open('https://www.instagram.com/p/C_9h6z5ppC9/?img_index=1')">
+                                <video class="thrid-Section-Example-Video" autoplay playsinline loop src="Images/sparkle and shine interior package/Video 2024-09-17, 11 31 45 AM.mp4" muted></video>
+                                <div class="third-Section-Example-Content-Fade">
+                                    <div class="project-Number"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="third-Section-Right-Fade"></div>
+                        <div id="third-Section-Left-Fade"></div>
+                        <div id="third-Section-Bottom-Fade"></div>
+                        <div id="third-Section-Top-Fade"></div>
+                        <button id="third-Section-Left-Arrow" onclick="changeSelectedImage('l', true)">
+                            <svg class="arrow-Icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                <path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/>
+                            </svg>
+                        </button>
+                        <button id="third-Section-Right-Arrow" onclick="changeSelectedImage('r', true)">
+                            <svg class="arrow-Icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                <path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div id="arrow-Click-Me">
+                        <img id="arrow-Image" src="Images/arrow.png">
+                        <span id="click-Me">Click Me</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="forth-Section">
+            <div id="view-Element-2"></div>
+            <div id="forth-Section-Fade"></div>
+            <div id="forth-Section-Fade-2"></div>
+            <div id="forth-Section-Content-Container">
+                <div id="forth-Section-Main-Text-Container">
+                    <div id="forth-Section-Text-Header">Cotact Us</div>
+                    <div id="forth-Section-Subheader">Have any questions feel free to contact us. </div>
+                </div>
+                <div id="email-Form-Info-Container">
+                    
+                    <form type="GET" id="email-Info-Container" onsubmit="sendEmail(event)" >
+                        <div id="first-Last-Name-Text-Box-Container">
+                            <div class="text-Box-Info-Container">
+                                <span class="text-Box-Title">First Name</span>                        
+                                <input type="text" id="first-Name" oninput="checkSendVerification()" class="first-Last-Name-Text-Box" placeholder="First Name" autocomplete="off">
+                            </div>
+
+                            <div class="text-Box-Info-Container">
+                                <span class="text-Box-Title">Last Name</span>                        
+                                <input type="text" id="last-Name" oninput="checkSendVerification()" class="first-Last-Name-Text-Box" placeholder="Last Name" autocomplete="off">
+                            </div>
+                        </div>
+
+                        <div class="normal-Text-Box-Container">
+                            <span class="text-Box-Title">Email</span>                        
+                            <input type="email" id="email-Text-Box" oninput="checkSendVerification()" class="normal-Text-Box" placeholder="Email" autocomplete="off">
+                        </div>
+
+                        
+                        <div class="normal-Text-Box-Container">
+                            <span class="text-Box-Title">Phone Number</span>                        
+                            <input type="number" id="phone-Number-Text-Box" oninput="checkSendVerification()" class="normal-Text-Box" placeholder="Phone Number" autocomplete="off">
+                        </div>
+
+                        <div class="normal-Text-Box-Container">
+                            <span class="text-Box-Title">Message</span>                        
+                            <textarea type="text" id="message-Text-Box" oninput="checkSendVerification()" class="normal-Text-Area" placeholder="Message" autocomplete="off" ></textarea>
+                        </div>
+
+                        <button type="submit" id="send-Message-Button" disabled>
+                            <div id="button-Content-Container">
+                                <span id="button-Send-Text">Send Message</span>
+                                <div class="loader-2"></div>
+                                <div id="failed-Sent-Text">Sent!</div>
+                            </div>
+                        </button>
+                    </form>
+
+                    <div id="forth-Section-Different-Info-Container">
+                        <div class="forth-Section-Info-Container">
+                            <div class="forth-Section-Info-Title">Chat with us</div>
+                            <div class="forth-Section-Info-Subheader">Message us 24/7 here</div>
+                            <div class="forth-Section-Options-Container">
+                                <div class="forth-Section-Option">
+                                    <svg class="forth-Section-Option-Icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/>
+                                    </svg>
+                                    <a href="mailto:jjprecisiondetailing@outlook.com" class="forth-Section-Option-Text">jjprecisiondetailing@outlook.com</a>
+                                </div>
+                                <div class="forth-Section-Option">
+                                    <svg class="forth-Section-Option-Icon"xmlns="http://www.w3.org/2000/svg" fill="#000000" width="800px" height="800px" viewBox="0 0 256 256" id="Flat">
+                                        <path d="M128,84a44,44,0,1,0,44,44A44.04978,44.04978,0,0,0,128,84Zm0,80a36,36,0,1,1,36-36A36.04061,36.04061,0,0,1,128,164ZM172,32H84A52.059,52.059,0,0,0,32,84v88a52.059,52.059,0,0,0,52,52h88a52.059,52.059,0,0,0,52-52V84A52.059,52.059,0,0,0,172,32Zm44,140a44.04978,44.04978,0,0,1-44,44H84a44.04978,44.04978,0,0,1-44-44V84A44.04978,44.04978,0,0,1,84,40h88a44.04978,44.04978,0,0,1,44,44ZM188,76a8,8,0,1,1-8-8A8.00917,8.00917,0,0,1,188,76Z"/>
+                                    </svg>
+                                    <div onclick="window.open('https://www.instagram.com/j.j.precisiondetailing/')" class="forth-Section-Option-Text">@j.j.precisiondetailing</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="forth-Section-Info-Container">
+                            <div class="forth-Section-Info-Title">Call us</div>
+                            <div class="forth-Section-Info-Subheader">Call us Mon-Fri 6pm to 9pm and Sat-Sun 9am to 5pm</div>
+                            <div class="forth-Section-Options-Container">
+                                <div class="forth-Section-Option">
+                                    <svg class="forth-Section-Option-Icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                        <path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/>
+                                    </svg>
+                                    <div class="forth-Section-Option-Text">+1(905) 439-8387</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="forth-Section-Info-Container">
+                            <div class="forth-Section-Info-Title">Location</div>
+                            <div class="forth-Section-Info-Subheader">We are located at</div>
+                            <div class="forth-Section-Options-Container">
+                                <div class="forth-Section-Option">
+                                    <svg class="forth-Section-Option-Icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                        <path d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/>
+                                    </svg>
+                                    <div onclick="window.open('https://www.google.ca/maps/place/193+Robert+Adams+Dr,+Courtice,+ON+L1E+3H9/@43.8948684,-78.7999813,17z/data=!3m1!4b1!4m6!3m5!1s0x89d5030616fee7bb:0xa957f13fe92911aa!8m2!3d43.8948684!4d-78.797401!16s%2Fg%2F11kprybdst?entry=ttu&g_ep=EgoyMDI0MDkxNS4wIKXMDSoASAFQAw%3D%3D')" class="forth-Section-Option-Text">193 Robert Adams Dr, Courtice, Ontario L1E 2Z1</div>
+                                </div>
+
+                                <div class="forth-Section-Option">
+                                    <svg class="forth-Section-Option-Icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                        <path d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/>
+                                    </svg>
+                                    <div onclick="window.open('https://www.google.ca/maps/place/116+Fieldcrest+Ave,+Courtice,+ON+L1E+2Z1/@43.9043846,-78.7832766,17z/data=!3m1!4b1!4m6!3m5!1s0x89d50397ec4ec04b:0x1d72f4b8dbc3daa0!8m2!3d43.9043846!4d-78.7806963!16s%2Fg%2F11cp86l3f1?entry=ttu&g_ep=EgoyMDI0MDkxNS4wIKXMDSoASAFQAw%3D%3D')" class="forth-Section-Option-Text">116 Fieldcrest Ave, Courtice, ON L1E 2Z1</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="footer">
+
+        </section>
+    </section>
+</body>
+</html>
