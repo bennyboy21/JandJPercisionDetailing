@@ -339,7 +339,7 @@ function sendEmail(event) {
             method: 'POST',
             headers: {
             'Content-Type': 'application/json',
-            'api-key': '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'
+            'api-key': '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'
             },
             body: JSON.stringify({
             sender: { email: 'benburnell2007@gmail.com', name: 'Your Website' }, // Use the email you verified with Brevo
